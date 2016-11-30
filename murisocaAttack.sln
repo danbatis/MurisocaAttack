@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{4AFE911F-3199-05E1-1A6B-EA6A3806E5DA}") = "murisocaAttack", "Assembly-CSharp-firstpass.csproj", "{0F44E9D8-3303-8AC4-2D93-EFAFB499F048}"
+EndProject
+Project("{4AFE911F-3199-05E1-1A6B-EA6A3806E5DA}") = "murisocaAttack", "Assembly-CSharp.csproj", "{E232C8F0-3B2F-2613-B23D-BD78816DCFE3}"
+EndProject
+Project("{4AFE911F-3199-05E1-1A6B-EA6A3806E5DA}") = "murisocaAttack", "Assembly-CSharp-Editor.csproj", "{57EC8A37-4998-B04D-CB50-3813F3C3C3DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F44E9D8-3303-8AC4-2D93-EFAFB499F048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F44E9D8-3303-8AC4-2D93-EFAFB499F048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F44E9D8-3303-8AC4-2D93-EFAFB499F048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F44E9D8-3303-8AC4-2D93-EFAFB499F048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E232C8F0-3B2F-2613-B23D-BD78816DCFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E232C8F0-3B2F-2613-B23D-BD78816DCFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E232C8F0-3B2F-2613-B23D-BD78816DCFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E232C8F0-3B2F-2613-B23D-BD78816DCFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EC8A37-4998-B04D-CB50-3813F3C3C3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EC8A37-4998-B04D-CB50-3813F3C3C3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EC8A37-4998-B04D-CB50-3813F3C3C3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EC8A37-4998-B04D-CB50-3813F3C3C3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

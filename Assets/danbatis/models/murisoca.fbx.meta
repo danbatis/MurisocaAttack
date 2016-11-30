@@ -1,0 +1,510 @@
+fileFormatVersion: 2
+guid: 8b40af29566bd4345b1e9a1c69d7ddcb
+timeCreated: 1480117223
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: joint1
+    100002: joint11
+    100004: joint12
+    100006: joint13
+    100008: joint14
+    100010: joint15
+    100012: joint16
+    100014: joint2
+    100016: joint3
+    100018: joint4
+    100020: joint5
+    100022: joint6
+    100024: joint7
+    100026: left_frontLeg1
+    100028: left_frontLeg2
+    100030: left_frontLeg3
+    100032: left_frontLeg4
+    100034: left_frontLegBase
+    100036: left_frontLegTip
+    100038: left_MiddleLeg1
+    100040: left_MiddleLeg2
+    100042: left_MiddleLeg3
+    100044: left_MiddleLeg4
+    100046: left_MiddleLegBase
+    100048: left_MiddleLegTip
+    100050: left_RearLeg1
+    100052: left_RearLeg2
+    100054: left_RearLeg3
+    100056: left_RearLeg4
+    100058: left_RearLegBase
+    100060: left_RearLegTip
+    100062: leftAntenaBase
+    100064: leftAntenaTipB
+    100066: leftAntenaTipS
+    100068: leftAntenaV
+    100070: leftWing
+    100072: leftWingTip
+    100074: mosquitoMesh
+    100076: //RootNode
+    100078: right_frontLeg1
+    100080: right_frontLeg2
+    100082: right_frontLeg3
+    100084: right_frontLeg4
+    100086: right_frontLegBase
+    100088: right_frontLegTip
+    100090: right_MiddleLeg1
+    100092: right_MiddleLeg2
+    100094: right_MiddleLeg3
+    100096: right_MiddleLeg4
+    100098: right_MiddleLegBase
+    100100: right_MiddleLegTip
+    100102: right_RearLeg1
+    100104: right_RearLeg2
+    100106: right_RearLeg3
+    100108: right_RearLeg4
+    100110: right_RearLegBase
+    100112: right_RearLegTip
+    100114: rightAntenaBase
+    100116: rightAntenaTipB
+    100118: rightAntenaTipS
+    100120: rightAntenaV
+    100122: rightWing
+    100124: rightWingTip
+    400000: joint1
+    400002: joint11
+    400004: joint12
+    400006: joint13
+    400008: joint14
+    400010: joint15
+    400012: joint16
+    400014: joint2
+    400016: joint3
+    400018: joint4
+    400020: joint5
+    400022: joint6
+    400024: joint7
+    400026: left_frontLeg1
+    400028: left_frontLeg2
+    400030: left_frontLeg3
+    400032: left_frontLeg4
+    400034: left_frontLegBase
+    400036: left_frontLegTip
+    400038: left_MiddleLeg1
+    400040: left_MiddleLeg2
+    400042: left_MiddleLeg3
+    400044: left_MiddleLeg4
+    400046: left_MiddleLegBase
+    400048: left_MiddleLegTip
+    400050: left_RearLeg1
+    400052: left_RearLeg2
+    400054: left_RearLeg3
+    400056: left_RearLeg4
+    400058: left_RearLegBase
+    400060: left_RearLegTip
+    400062: leftAntenaBase
+    400064: leftAntenaTipB
+    400066: leftAntenaTipS
+    400068: leftAntenaV
+    400070: leftWing
+    400072: leftWingTip
+    400074: mosquitoMesh
+    400076: //RootNode
+    400078: right_frontLeg1
+    400080: right_frontLeg2
+    400082: right_frontLeg3
+    400084: right_frontLeg4
+    400086: right_frontLegBase
+    400088: right_frontLegTip
+    400090: right_MiddleLeg1
+    400092: right_MiddleLeg2
+    400094: right_MiddleLeg3
+    400096: right_MiddleLeg4
+    400098: right_MiddleLegBase
+    400100: right_MiddleLegTip
+    400102: right_RearLeg1
+    400104: right_RearLeg2
+    400106: right_RearLeg3
+    400108: right_RearLeg4
+    400110: right_RearLegBase
+    400112: right_RearLegTip
+    400114: rightAntenaBase
+    400116: rightAntenaTipB
+    400118: rightAntenaTipS
+    400120: rightAntenaV
+    400122: rightWing
+    400124: rightWingTip
+    4300000: mosquitoMesh
+    7400000: takeOff
+    7400002: flying
+    9500000: //RootNode
+    13700000: mosquitoMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: takeOff
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint3
+        weight: 1
+      - path: joint1/joint3/joint4
+        weight: 1
+      - path: joint1/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/joint11
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/joint11/joint12
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/leftAntenaBase
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/leftAntenaBase/leftAntenaV
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/leftAntenaBase/leftAntenaV/leftAntenaTipB
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/leftAntenaBase/leftAntenaV/leftAntenaTipS
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/rightAntenaBase
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/rightAntenaBase/rightAntenaV
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/rightAntenaBase/rightAntenaV/rightAntenaTipB
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/rightAntenaBase/rightAntenaV/rightAntenaTipS
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint14
+        weight: 1
+      - path: joint1/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2/left_RearLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2/left_RearLeg3/left_RearLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2/left_RearLeg3/left_RearLeg4/left_RearLegTip
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2/right_RearLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2/right_RearLeg3/right_RearLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2/right_RearLeg3/right_RearLeg4/right_RearLegTip
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2/left_MiddleLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2/left_MiddleLeg3/left_MiddleLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2/left_MiddleLeg3/left_MiddleLeg4/left_MiddleLegTip
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2/right_MiddleLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2/right_MiddleLeg3/right_MiddleLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2/right_MiddleLeg3/right_MiddleLeg4/right_MiddleLegTip
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2/left_frontLeg3
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2/left_frontLeg3/left_frontLeg4
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2/left_frontLeg3/left_frontLeg4/left_frontLegTip
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2/right_frontLeg3
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2/right_frontLeg3/right_frontLeg4
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2/right_frontLeg3/right_frontLeg4/right_frontLegTip
+        weight: 1
+      - path: joint1/joint16
+        weight: 1
+      - path: joint1/joint16/leftWing
+        weight: 1
+      - path: joint1/joint16/leftWing/leftWingTip
+        weight: 1
+      - path: joint1/joint16/rightWing
+        weight: 1
+      - path: joint1/joint16/rightWing/rightWingTip
+        weight: 1
+      - path: mosquitoMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: flying
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint3
+        weight: 1
+      - path: joint1/joint3/joint4
+        weight: 1
+      - path: joint1/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/joint11
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/joint11/joint12
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/leftAntenaBase
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/leftAntenaBase/leftAntenaV
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/leftAntenaBase/leftAntenaV/leftAntenaTipB
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/leftAntenaBase/leftAntenaV/leftAntenaTipS
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/rightAntenaBase
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/rightAntenaBase/rightAntenaV
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/rightAntenaBase/rightAntenaV/rightAntenaTipB
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint7/rightAntenaBase/rightAntenaV/rightAntenaTipS
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint14
+        weight: 1
+      - path: joint1/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2/left_RearLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2/left_RearLeg3/left_RearLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2/left_RearLeg3/left_RearLeg4/left_RearLegTip
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2/right_RearLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2/right_RearLeg3/right_RearLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2/right_RearLeg3/right_RearLeg4/right_RearLegTip
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2/left_MiddleLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2/left_MiddleLeg3/left_MiddleLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2/left_MiddleLeg3/left_MiddleLeg4/left_MiddleLegTip
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2/right_MiddleLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2/right_MiddleLeg3/right_MiddleLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2/right_MiddleLeg3/right_MiddleLeg4/right_MiddleLegTip
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2/left_frontLeg3
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2/left_frontLeg3/left_frontLeg4
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2/left_frontLeg3/left_frontLeg4/left_frontLegTip
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2/right_frontLeg3
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2/right_frontLeg3/right_frontLeg4
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2/right_frontLeg3/right_frontLeg4/right_frontLegTip
+        weight: 1
+      - path: joint1/joint16
+        weight: 1
+      - path: joint1/joint16/leftWing
+        weight: 1
+      - path: joint1/joint16/leftWing/leftWingTip
+        weight: 1
+      - path: joint1/joint16/rightWing
+        weight: 1
+      - path: joint1/joint16/rightWing/rightWingTip
+        weight: 1
+      - path: mosquitoMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
