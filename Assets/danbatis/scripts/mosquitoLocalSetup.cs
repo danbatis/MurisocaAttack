@@ -1,24 +1,30 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 public class mosquitoLocalSetup : NetworkBehaviour {
 	//syncvar works only one way, if the variable changes in the server, the change is propagated to the clients
 	[SyncVar]
 	public string pname="player";
+	mosquitoCombat mosquitoBattle;
+	TextMesh playerName;
 
 
 	// Use this for initialization
 	void Start () {
+		playerName = GetComponentInChildren<TextMesh> ();
+		mosquitoBattle = GetComponent<mosquitoCombat> ();
+
 		if (isLocalPlayer) {
 			GetComponent<MosquitoFlight> ().enabled = true;
 			Camera.main.GetComponent<ThirdPersonCamera> ().enabled = true;
 			Debug.Log ("Third Person Cam reactivated!");
 			Camera.main.GetComponent<ThirdPersonCamera> ().target = transform;
 			GetComponent<MosquitoFlight> ().camTransform = Camera.main.transform;
+			mosquitoBattle.localPlayer = true;
 		}	
 	}
-
 
 	void OnGUI(){
 		if (isLocalPlayer) {
@@ -34,20 +40,18 @@ public class mosquitoLocalSetup : NetworkBehaviour {
 	public void CmdChangeName(string newName){
 		pname = newName;
 	}
-
-	public void ListenGenericCmd(string cmdInstruction){
-		if (!isLocalPlayer) {
-			StartCoroutine (GenericCmd ());
-		}
+	[Command]
+	public void CmdDamage(){
+		mosquitoBattle.Damage ();
 	}
 
 	void Update() {
-		this.GetComponentInChildren<TextMesh> ().text = pname;
+		playerName.text = pname;
 	}
 
-	IEnumerator GenericCmd(){
+	IEnumerator GenericCmd(string cmdInstruction){
 		string oldpname = pname;
-		pname="zetachange";
+		pname=cmdInstruction;
 		yield return new WaitForSeconds(2.0f);
 		pname = oldpname;
 	}

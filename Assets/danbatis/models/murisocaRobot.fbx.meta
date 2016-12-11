@@ -72,6 +72,12 @@ ModelImporter:
     100128: rightWingTip
     100130: transform1
     100132: transform2
+    100134: mosquitoMeshPlus
+    100136: robotArm1
+    100138: robotArm2
+    100140: robotArm3
+    100142: robotArm4
+    100144: robotArmRoot
     400000: joint1
     400002: joint13
     400004: joint14
@@ -139,6 +145,12 @@ ModelImporter:
     400128: rightWingTip
     400130: transform1
     400132: transform2
+    400134: mosquitoMeshPlus
+    400136: robotArm1
+    400138: robotArm2
+    400140: robotArm3
+    400142: robotArm4
+    400144: robotArmRoot
     2300000: pCube14
     2300002: pCube15
     2300004: pCube16
@@ -161,13 +173,16 @@ ModelImporter:
     4300010: transform2
     4300012: transform1
     4300014: mosquitoMesh
+    4300016: mosquitoMeshPlus
     7400000: takeOff
     7400002: flying
-    7400004: Slash1
+    7400004: Damage
     7400006: idle
+    7400008: Slash1
     9500000: //RootNode
     11100000: //RootNode
     13700000: mosquitoMesh
+    13700002: mosquitoMeshPlus
   materials:
     importMaterials: 1
     materialName: 0
@@ -498,7 +513,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Slash1
+      name: Damage
       takeName: Take 001
       firstFrame: 33
       lastFrame: 48
@@ -801,6 +816,160 @@ ModelImporter:
       - path: joint1/joint16/rightWing/rightWingTip
         weight: 1
       - path: mosquitoMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Slash1
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint3
+        weight: 1
+      - path: joint1/joint3/joint4
+        weight: 1
+      - path: joint1/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17/robotArmRoot
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17/robotArmRoot/pCube17
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17/robotArmRoot/robotArm1
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17/robotArmRoot/robotArm1/pCube16
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17/robotArmRoot/robotArm1/robotArm2
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17/robotArmRoot/robotArm1/robotArm2/pCube14
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17/robotArmRoot/robotArm1/robotArm2/robotArm3
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17/robotArmRoot/robotArm1/robotArm2/robotArm3/pCube15
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17/robotArmRoot/robotArm1/robotArm2/robotArm3/robotArm4
+        weight: 1
+      - path: joint1/joint3/joint4/joint5/joint6/joint17/robotArmRoot/robotArm1/robotArm2/robotArm3/robotArm4/polySurface1
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint14
+        weight: 1
+      - path: joint1/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2/left_RearLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2/left_RearLeg3/left_RearLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/left_RearLegBase/left_RearLeg1/left_RearLeg2/left_RearLeg3/left_RearLeg4/left_RearLegTip
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2/right_RearLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2/right_RearLeg3/right_RearLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/right_RearLegBase/right_RearLeg1/right_RearLeg2/right_RearLeg3/right_RearLeg4/right_RearLegTip
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2/left_MiddleLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2/left_MiddleLeg3/left_MiddleLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/left_MiddleLegBase/left_MiddleLeg1/left_MiddleLeg2/left_MiddleLeg3/left_MiddleLeg4/left_MiddleLegTip
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2/right_MiddleLeg3
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2/right_MiddleLeg3/right_MiddleLeg4
+        weight: 1
+      - path: joint1/joint13/joint14/right_MiddleLegBase/right_MiddleLeg1/right_MiddleLeg2/right_MiddleLeg3/right_MiddleLeg4/right_MiddleLegTip
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2/left_frontLeg3
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2/left_frontLeg3/left_frontLeg4
+        weight: 1
+      - path: joint1/joint13/left_frontLegBase/left_frontLeg1/left_frontLeg2/left_frontLeg3/left_frontLeg4/left_frontLegTip
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2/right_frontLeg3
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2/right_frontLeg3/right_frontLeg4
+        weight: 1
+      - path: joint1/joint13/right_frontLegBase/right_frontLeg1/right_frontLeg2/right_frontLeg3/right_frontLeg4/right_frontLegTip
+        weight: 1
+      - path: joint1/joint16
+        weight: 1
+      - path: joint1/joint16/leftWing
+        weight: 1
+      - path: joint1/joint16/leftWing/leftWingTip
+        weight: 1
+      - path: joint1/joint16/rightWing
+        weight: 1
+      - path: joint1/joint16/rightWing/rightWingTip
+        weight: 1
+      - path: mosquitoMeshPlus
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}

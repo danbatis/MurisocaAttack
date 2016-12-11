@@ -44,6 +44,8 @@ public class ThirdPersonCamera : MonoBehaviour {
 
 	void Update ()
 	{
+		Screen.lockCursor = true;
+		
 		/*
 		if (Input.GetKey ("left shift")) {
 			targetVirtual = target.position + camDistance * target.forward + camHeight*target.up;
